@@ -20,3 +20,12 @@ export type FooterContentProps = {
 export type NavBarProps = {
   visible : boolean;
 }
+
+export type StatusItem = {
+    status: string;
+    description: string;
+}
+
+export type StatusProps = {
+    statuses: StatusItem[];
+}
