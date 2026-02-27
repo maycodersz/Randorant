@@ -29,3 +29,7 @@ export type StatusItem = {
 export type StatusProps = {
     statuses: StatusItem[];
 }
+
+export type CarouselProps = {
+    icons : IconType[];
+}
