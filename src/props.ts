@@ -33,3 +33,15 @@ export type StatusProps = {
 export type CarouselProps = {
     icons : IconType[];
 }
+
+export type Card = {
+    title : string;
+    Icon : IconType;
+    description : string;
+}
+
+export type AboutCardProps = {
+    title : string;
+    Icon : IconType;
+    description : string;
+}

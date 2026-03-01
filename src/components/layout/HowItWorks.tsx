@@ -2,13 +2,8 @@ import { BsHouseAddFill } from "react-icons/bs";
 import { FaUserFriends } from "react-icons/fa";
 import { GiChampions } from "react-icons/gi";
 import AboutCard from "../ui/AboutCard";
-import type { IconType } from "react-icons";
+import type { Card } from "../../props";
 
-type Card = {
-    title : string;
-    Icon : IconType;
-    description : string;
-}
 
 const HowItWorks : React.FC = () => {
 

@@ -1,10 +1,4 @@
-import type { IconType } from "react-icons";
-
-type AboutCardProps = {
-    title : string;
-    Icon : IconType;
-    description : string;
-}
+import type { AboutCardProps } from "../../props"
 
 const AboutCard : React.FC<AboutCardProps> = ({title, Icon, description}) => {
   return (
