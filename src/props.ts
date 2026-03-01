@@ -45,3 +45,9 @@ export type AboutCardProps = {
     Icon : IconType;
     description : string;
 }
+
+export type FormHeaderProps = {
+    Icon : IconType;
+    title : string;
+    description : string;
+}
