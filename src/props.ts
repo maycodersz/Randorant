@@ -51,3 +51,8 @@ export type FormHeaderProps = {
     title : string;
     description : string;
 }
+
+export type FormInputProps = {
+    label : string;
+    placeholder : string;
+}
