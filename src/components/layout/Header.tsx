@@ -7,7 +7,7 @@ const Header : React.FC = () => {
     const [visible, setVisible] = useState<boolean>(false);
 
   return (
-    <header className="flex flex-col justify-between items-center py-6 px-[10%] font-[family-name:Poppins] lg:flex-row lg:py-4">
+    <header className="relative bg-[#FFF] z-11 flex flex-col justify-between items-center py-6 px-[10%] font-[family-name:Poppins] lg:flex-row lg:py-4">
         <div className="w-full flex justify-between items-center lg:w-auto">
             <div className="flex items-center space-x-2">
                 <GrRestaurant className="text-2xl"/>

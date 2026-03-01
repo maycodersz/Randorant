@@ -1,4 +1,3 @@
-import Carousel from "../ui/Carousel";
 import Developer from "../ui/Developer"
 import Status from "../ui/Status"
 import { FaHtml5, FaJsSquare, FaCss3Alt, FaReact  } from "react-icons/fa";
@@ -16,7 +15,7 @@ const Hero : React.FC = () => {
     const icons = [FaHtml5, FaCss3Alt, FaJsSquare, FaReact, BiLogoTypescript, SiTailwindcss];
 
   return (
-    <section className="w-full flex flex-col py-8 px-[10%] font-[family-name:Poppins] text-center items-center">
+    <section className="w-full min-h-[60vh] flex flex-col py-8 px-[10%] font-[family-name:Poppins] text-center items-center justify-center lg:min-h-[80vh]">
         <div className="flex flex-col items-center space-y-8">
             <div className="flex flex-col items-center space-y-4 xl:space-y-8 2xl:space-16">
                 <p className="font-bold bg-violet-900 text-[#FFF] text-xs py-1 px-4 rounded-full md:text-sm lg:text-base xl:text-base">Random Restaurant Picker</p>
