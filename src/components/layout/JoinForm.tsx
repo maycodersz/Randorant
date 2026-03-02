@@ -1,8 +1,10 @@
 
 import { BsFillHouseFill } from "react-icons/bs";
+import { BsIncognito } from "react-icons/bs";
 import FormHeader from "../ui/FormHeader"
 import FormInput from "../ui/FormInput";
 import { Link } from "react-router-dom";
+import FormSwitch from "../ui/FormSwitch";
 
 const JoinForm : React.FC = () => { 
     return (
@@ -10,7 +12,8 @@ const JoinForm : React.FC = () => {
         <FormHeader Icon={BsFillHouseFill} title="Join your friends" description="Enter the room code and your display name to join your friend's restaurant voting session."/>
         <FormInput label="Room Code" placeholder="Enter your 6-digit room code"/>
         <FormInput label="Display Name" placeholder="Enter your display name"/>
-        <button className="w-full font-bold text-sm py-2 px-4 bg-violet-900 text-[#FFF] rounded-lg xl:text-base 2xl:text-lg xl:rounded-xl">Join Room</button>
+        <FormSwitch label="Join as “Hungry Voter” (Random Name)" Icon={BsIncognito}/>
+        <button className="w-full font-bold text-sm py-2 px-4 bg-violet-900 text-[#FFF] cursor-pointer rounded-lg hover:bg-violet-950 xl:text-base 2xl:text-lg xl:rounded-xl">Join Room</button>
         <Link to='/create' className="w-full text-left text-xs text-violet-900 lg:text-sm">Don’t have a room code?</Link> 
     </form>
   )
