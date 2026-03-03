@@ -1,4 +1,4 @@
-import type { FormInputProps } from "../../props"
+import type { FormInputProps } from "../../types"
 
 const FormInput : React.FC<FormInputProps> = ({label, placeholder}) => {
   return (

@@ -1,5 +1,5 @@
 import CreateForm from "../components/layout/CreateForm"
-import Quote from "../components/ui/Quote"
+import Quote from "../components/shared/Quote"
 
 const CreateRoom : React.FC = () => {
   return (

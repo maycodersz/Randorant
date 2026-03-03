@@ -1,11 +1,5 @@
 import { useState } from "react";
-import type { IconType } from "react-icons";
-
-type FormSwitchProps = {
-    label: string;
-    Icon : IconType;
-    defaultChecked?: boolean;
-}
+import type { FormSwitchProps } from "../../types";
 
 const FormSwitch: React.FC<FormSwitchProps> = ({ 
     label, 

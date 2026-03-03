@@ -1,4 +1,4 @@
-import type { FormHeaderProps } from "../../props"
+import type { FormHeaderProps } from "../../types"
 
 const FormHeader : React.FC<FormHeaderProps> = ({Icon, title, description}) => {
   return (

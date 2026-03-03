@@ -1,6 +1,6 @@
-import type { CarouselProps } from "../../props"
+import type { IconCarouselProps } from "../../types"
 
-const Carousel : React.FC<CarouselProps> = ({icons}) => {
+const Carousel : React.FC<IconCarouselProps> = ({icons}) => {
   return (
         <div className="w-1/2 relative overflow-hidden p-6">
             <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-1/3 bg-gradient-to-r from-white to-transparent" />

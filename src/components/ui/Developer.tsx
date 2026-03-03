@@ -1,7 +1,7 @@
 import Carousel from "./Carousel"
-import type { CarouselProps } from "../../props"
+import type { IconCarouselProps } from "../../types"
 
-const Developer : React.FC<CarouselProps> = ({icons}) => {
+const Developer : React.FC<IconCarouselProps> = ({icons}) => {
   return (
     <div className="flex w-full items-center justify-center space-x-6 px-4 md:w-2/3 lg:w-1/2">
         <Carousel icons={icons}/>

@@ -1,5 +1,5 @@
 import JoinForm from "../components/layout/JoinForm"
-import Quote from "../components/ui/Quote"
+import Quote from "../components/shared/Quote"
 
 const JoinRoom : React.FC = () => {
   return (
