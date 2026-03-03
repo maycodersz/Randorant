@@ -9,6 +9,9 @@ import { BsIncognito } from "react-icons/bs";
 import { IoRestaurantSharp } from "react-icons/io5";
 import { FaRegClock } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaGithub  } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { BiDollar } from "react-icons/bi";
+import { FaUser } from "react-icons/fa";
 import type { HeroStatsProps, IconCarouselProps, CardProps, FormHeaderProps, FormInputProps, FormSwitchProps, FooterContentProps } from "../types";
 
 //Hero.tsx
@@ -102,3 +105,30 @@ export const SOCIAL_LINKS : FooterContentProps = {
         {Icon : FaGithub, href : ''},
     ]
 }
+
+export const CREATE_SLIDERS = [
+    {
+        label : "Distance",
+        Icon : FaLocationDot,
+        description : "How far are you willing to go?",
+        unit : "miles",
+        min : 0,
+        max : 5,
+    },
+    {
+        label : "Budget",
+        Icon : BiDollar,
+        description : "What's your spending comfort zone?",
+        unit : "$",
+        min : 0,
+        max : 4,
+    },
+    {
+        label : "Voters",
+        Icon : FaUser,
+        description : "How many voices in the decision?",
+        unit : "voters",
+        min : 2,
+        max : 10,
+    }
+]

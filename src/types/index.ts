@@ -60,3 +60,13 @@ export type FormSwitchProps = {
 export type FormButtonProps = {
     children : React.ReactNode;
 }
+
+export type FormSliderProps = {
+    label : string;
+    Icon : IconType;
+    description : string;
+    unit : string;
+    min : number;
+    max : number;
+    step?: number;
+}
